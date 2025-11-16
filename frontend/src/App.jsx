@@ -10,6 +10,7 @@ import Todolist from './pages/Todolist';
 import Aichatbot from './pages/Aichatbot';
 import About from './pages/About';
 import MentorDashboard from './pages/MentorDashboard';
+import Profile from './pages/Profile';
 import OnboardingForm from './components/OnboardingForm';
 import './App.css';
 
@@ -31,6 +32,7 @@ function App() {
           <Route path="/aichatbot" element={<Aichatbot />} />
           <Route path="/about" element={<About />} />
           <Route path="/mentor-dashboard" element={<MentorDashboard />} />
+          <Route path="/profile" element={<Profile />} />
         </Routes>
       </main>
       <Footer />
