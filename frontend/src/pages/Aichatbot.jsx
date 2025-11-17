@@ -66,7 +66,7 @@ function Aichatbot() {
   const [menuId, setMenuId] = useState(null);
   
   const menuRef = useRef(null);
- const GEMINI_API_KEY = "AIzaSyBbb1i5l_N1odO4BDWX1U3-MCgXr2cFHSA"; // Replace with your actual API key
+ const GEMINI_API_KEY = "paste ur api key "; // Replace with your actual API key
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`;
   
   const SYSTEM_INSTRUCTION = `You are a helpful AI study assistant focused on helping students learn. Your expertise includes: homework help, study techniques, exam preparation, concept explanations, and academic guidance.
